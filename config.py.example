@@ -1,0 +1,14 @@
+CONFIG = {
+    "database": {
+        "host":"localhost",
+        "port":3306,
+        "user":"writer",
+        "password":"password",
+        "name":"dbname"
+    },
+    "mqtt":{
+        "host":"mqtt.example.com",
+        "port":1883,
+        "topic":"data/kresit/sch/1"
+    }
+}
