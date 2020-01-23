@@ -1,7 +1,7 @@
 import numpy as np
 from keras.models import load_model
 
-model=load_model("LSTM30.h5")
+model=load_model("cnn.h5")
 
 def energy_pred_LSTM(rowtestx):
     rowtestx=np.array([rowtestx])
